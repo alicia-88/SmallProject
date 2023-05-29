@@ -101,3 +101,49 @@ button {
     align-items: flex-start;
 }
 ul {display: flex;}
+#portraits{
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    align-items: center;
+}
+.grid-container-1{
+    display: grid;
+    gap: 2%;
+    width: 100%;
+    /* padding-bottom: 3%;  */
+}
+.grid-container-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    object-fit: cover;
+}
+.portrait1{
+    grid-area: 1/ 8 / 3/ 13;
+
+}
+.portrait2{
+    grid-area: 7/1/9/7;
+}
+.portrait3{
+    grid-area: 5/5/7/10;
+}
+.portrait4{
+    grid-area: 7/7/9/13;
+}
+.portrait5{
+    grid-area: 3/10/7/13;
+}
+.portrait6{
+    grid-area: 3/4/5/10;
+}
+.portrait7{
+    grid-area: 1/4/3/8;
+}
+.portrait8{
+    grid-area: 1/1/5/4;
+}
+.portrait9{
+    grid-area: 5/1/7/5;
+}
